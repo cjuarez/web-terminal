@@ -1,0 +1,26 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.terminal {
+    background: #30353A;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    font-size: 11pt;
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.last-line:focus {
+    outline: none;
+}
