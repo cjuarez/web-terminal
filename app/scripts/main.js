@@ -1,4 +1,5 @@
 $(function () {
+    'use strict';
     $.mockjax({
       url: '/rest/execute',
       responseTime: 150,
